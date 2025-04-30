@@ -3578,7 +3578,7 @@ input[type=submit]:focus {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.special-item .special-content {
+/* .special-item .special-content {
   background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
   margin-top: -145px;
@@ -3586,6 +3586,15 @@ input[type=submit]:focus {
   position: relative;
   margin-left: 15px;
   margin-right: 15px;
+} */
+
+.special-item .special-content {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+  margin-top: 2px;
+  padding: 30px;
+  position: relative;
+  
 }
 .special-item .badge-dis {
   display: -webkit-box;
@@ -8798,4 +8807,66 @@ product checkout css
     aspect-ratio: 1/1;
     object-fit: cover;
   }
+}
+
+#taxi-image-fix img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.price-box {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  padding: 0;              /* Remove internal spacing */
+  margin: 0;               /* Remove external spacing */
+}
+
+.price-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+
+.price-box td,
+.price-box th {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: normal;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+/* Vertical dividing line */
+.price-box th:first-child,
+.price-box td:first-child {
+  border-right: 1px solid #ccc;
+}
+
+/* REMOVE bottom border on last row */
+.price-box tr:last-child td {
+  border-bottom: none;
+}
+
+/* Remove extra spacing in parent div if any */
+.special-content,
+.special-item,
+.special-section,
+.special-inner,
+.col-md-6 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.special-content .btn-wrap  {
+  margin-top: 20px;
+}
+
+.special-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
