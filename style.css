@@ -2755,6 +2755,7 @@ input[type=submit]:focus {
 
 .btn-wrap a {
   margin-top: 50px;
+  
 }
 @media screen and (max-width: 575px) {
   .btn-wrap a {
@@ -2812,6 +2813,7 @@ input[type=submit]:focus {
 .package-inner .row [class*=col-] {
   padding-left: 12px;
   padding-right: 12px;
+  
 }
 
 .package-wrap {
@@ -2833,6 +2835,9 @@ input[type=submit]:focus {
   margin-left: -30px;
   margin-right: -30px;
   margin-top: 27px;
+  padding-left: 12px;
+  
+  
 }
 .package-wrap .package-content .btn-wrap a {
   color: #383838;
@@ -2840,9 +2845,11 @@ input[type=submit]:focus {
   margin-top: 0;
   padding: 16px 0;
   width: 100%;
+  
 }
 .package-wrap .package-content .btn-wrap a.width-6 {
   width: 50%;
+  
 }
 .package-wrap .package-content .btn-wrap a + a {
   border-left: 1px solid rgba(175, 175, 175, 0.1);
@@ -2851,15 +2858,20 @@ input[type=submit]:focus {
   color: #F56960;
   font-size: 13px;
   margin-left: 8px;
+  
 }
 .package-wrap .package-content .btn-wrap a:hover, .package-wrap .package-content .btn-wrap a:focus, .package-wrap .package-content .btn-wrap a:active {
   color: #0791BE;
+  
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-], .package-wrap .package-content .btn-wrap a:focus [class*=fa-], .package-wrap .package-content .btn-wrap a:active [class*=fa-] {
   color: #0791BE;
+  
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:focus [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:active [class*=fa-]:before {
   font-weight: 900;
+  
+  ;
 }
 .package-wrap .review-area {
   margin-bottom: 15px;
@@ -8869,4 +8881,37 @@ product checkout css
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.main-navigation ul > li.menu-item-has-children2 > a:after {
+  content: "\f0d7";
+}
+
+.main-navigation ul ul li.menu-item-has-children2 > a:after {
+  content: "\f0da";
+}
+.main-navigation ul li.menu-item-has-children2 > a {
+  position: relative;
+}
+.main-navigation ul li.menu-item-has-children2 > a:after {
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-weight: 900;
+  margin-left: 8PX;
+  -webkit-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  -ms-transition: transform 0.4s;
+  -o-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.main-navigation ul li.menu-item-has-children2 li:hover > a, .main-navigation ul li.menu-item-has-children2 li:focus > a {
+  background-color: #2C75BA;
+  color: #ffffff;
+}
+
+.btn-wrap a .fas {
+  padding-left: 12px;
 }
