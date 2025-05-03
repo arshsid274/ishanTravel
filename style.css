@@ -8915,3 +8915,38 @@ product checkout css
 .btn-wrap a .fas {
   padding-left: 12px;
 }
+
+.overview-content-orange{
+  background-color: white;
+  color: #F56960;
+}
+
+
+.overview-content-blue{
+  background-color: white;
+  color: #0791BE;
+}
+
+.overview-content > table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.overview-content > table th,
+.overview-content > table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.overview-content-orange {
+  color: #f26460;
+  font-weight: bold;
+}
+
+.overview-content-blue {
+  color: #0077b6;
+  font-weight: bold;
+}
